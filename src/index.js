@@ -29,6 +29,21 @@ async function main() {
             states.forEach(createState);
         }
     }
+
+    if (command === 'create new state directory') {
+        const { state } = await inquirer.prompt([
+            {
+                message: 'new state name ? ',
+                name: 'state',
+            },
+        ]);
+
+        if (!fs.existsSync(storePath)) {
+            throw new Error('store directory is not init yet!');
+        }
+
+        createState(state);
+    }
 }
 
 main();
