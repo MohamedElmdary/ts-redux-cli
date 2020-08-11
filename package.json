@@ -1,6 +1,6 @@
 {
     "name": "ts-redux-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Cli to help in creating files for react redux with typescript project",
     "main": "src/index.js",
     "bin": "src/index.js",
