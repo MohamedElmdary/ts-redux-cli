@@ -12,7 +12,12 @@
         "url": "git+https://github.com/MohamedElmdary/ts-redux-cli.git"
     },
     "keywords": [
-        "react"
+        "react",
+        "redux",
+        "react-redux",
+        "typescript",
+        "cli",
+        "code-generator"
     ],
     "author": "Mohamed Elmdary",
     "license": "MIT",
