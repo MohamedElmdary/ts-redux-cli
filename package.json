@@ -1,0 +1,29 @@
+{
+    "name": "ts-redux-cli",
+    "version": "1.0.0",
+    "description": "Cli to help in creating files for react redux with typescript project",
+    "main": "src/index.js",
+    "bin": "src/index.js",
+    "scripts": {
+        "start": "src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MohamedElmdary/ts-redux-cli.git"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "Mohamed Elmdary",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MohamedElmdary/ts-redux-cli/issues"
+    },
+    "homepage": "https://github.com/MohamedElmdary/ts-redux-cli#readme",
+    "dependencies": {
+        "inquirer": "^7.3.3"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^7.3.0"
+    }
+}
